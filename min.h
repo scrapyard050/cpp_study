@@ -6,4 +6,6 @@ public:
     Min(const Data& data);
     virtual const char* name() const override;
     virtual double value() const override;
+    virtual ~Min() = default;
+
 };

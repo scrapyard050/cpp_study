@@ -6,4 +6,5 @@ public:
     Mean(const Data& data);
     virtual const char* name() const override;
     virtual double value() const override;
+    virtual ~Mean() = default;
 };
