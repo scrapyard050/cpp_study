@@ -35,15 +35,14 @@ void my_list_test()
     std::cout<<"------"<<std::endl;
     my_list.insert(3, 5);
     my_list.print();
-
 }
-int main(int argv, char** argc)
+int main()
 {
         
     // тестирование вектора
     my_vector_test();
     
     // тестирование списка
-    //my_list_test();
+    my_list_test();
     return 0;
 }
